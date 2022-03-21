@@ -21,30 +21,30 @@
         <form action="#">
             <h3>Buscar Cliente</h3>
             <select name="buscarCliente" id="buscarCliente">
-                <option   option value="1">Bruno Fernando Castro</option>
+                <option value="none"></option>
             </select>
-            <button>Buscar cliente</button>
+            <button id="botaoBuscar">Buscar cliente</button>
         </form>
         
         <hr>
         <h2>Editar cliente</h2>
         <form action="#">
 
-            <input type="text" name="nome" value="Bruno Fernando Castro">
-            <input type="date" name="data_nasc" value="26/01/1987">
+            <input type="text" name="nome" value="">
+            <input type="date" name="data_nasc" value="">
             <select name="sexo" id="sexo">
                 <option selected value="Masculino">Masculino</option>
                 <option value="Feminino">Feminino</option>
             </select>
-            <input type="email" name="email" value="bruno_monteiro@cordeiromaquinas.com.br">
+            <input type="email" name="email" value="">
 
             <hr>
-            <h3>Cadastrar Endereço:</h3>
-            <input type="number" name="cep" value="49088140">
-            <input type="text" name="rua" value="Rua Treze">
-            <input type="number" name="numero" value="499">
-            <input type="text" name="bairro" value="Lamarão">
-            <input type="text" name="cidade" value="Aracaju">
+            <h3>Editar Endereço:</h3>
+            <input type="number" name="cep" value="">
+            <input type="text" name="rua" value="">
+            <input type="number" name="numero" value="">
+            <input type="text" name="bairro" value="">
+            <input type="text" name="cidade" value="">
             <select id="estado" name="estado">
                 <option selected value="AC">Acre</option>
                 <option value="AL">Alagoas</option>
@@ -77,12 +77,12 @@
             </select>
 
             <hr>
-            <h3>Cadastrar Contato:</h3>
-            <input type="tel" name="telefone_fixo" value="7928955976">
+            <h3>Editar Contato:</h3>
+            <input type="tel" name="telefone_fixo" value="">
 
-            <button>Editar</button>
+            <button id="editar">Editar</button>
         </form>
 
-
+        <script type="module" src="./../js/pageEditar.js"></script>
 </body>
 </html>
